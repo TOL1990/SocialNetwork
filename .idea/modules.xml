@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CoreApi/CoreApi.iml" filepath="$PROJECT_DIR$/CoreApi/CoreApi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CoreImpl/CoreImpl.iml" filepath="$PROJECT_DIR$/CoreImpl/CoreImpl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Dao/Dao.iml" filepath="$PROJECT_DIR$/Dao/Dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DesktopUI/DesktopUI.iml" filepath="$PROJECT_DIR$/DesktopUI/DesktopUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/SN.iml" filepath="$PROJECT_DIR$/SN.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Web/Web.iml" filepath="$PROJECT_DIR$/Web/Web.iml" />
     </modules>
   </component>
 </project>

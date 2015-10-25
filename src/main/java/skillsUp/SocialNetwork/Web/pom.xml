@@ -20,6 +20,11 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId></artifactId>
+        </dependency>
+
 
     </dependencies>
 
