@@ -1,4 +1,4 @@
-package skillsUp.SocialNetwork.CoreApi.src.main.java;
+package skillsUp.SocialNetwork.CoreApi.src.main.java.model;
 
 import java.time.LocalDateTime;
 
