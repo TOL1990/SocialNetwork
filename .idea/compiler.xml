@@ -47,6 +47,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Annotation profile for untitled" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CoreApi" target="1.8" />
@@ -54,6 +60,7 @@
       <module name="Dao" target="1.8" />
       <module name="DesktopUI" target="1.8" />
       <module name="SN" target="1.5" />
+      <module name="untitled" target="1.8" />
       <module name="Web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
