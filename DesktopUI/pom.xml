@@ -9,16 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>coreApi</artifactId>
-    <name>Social CoreApi module</name>
-<!--<dependencyManagement>-->
-    <!--<dependencies>-->
-        <!--<dependency>-->
-            <!--<groupId>SocialNetwork</groupId>-->
-            <!--<artifactId>SkillsUpProjects</artifactId>-->
-        <!--</dependency>-->
-    <!--</dependencies>-->
-<!--</dependencyManagement>-->
+    <artifactId>DesktopUI</artifactId>
+    <name>Desktop UI module</name>
 
 
 </project>

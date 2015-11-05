@@ -8,6 +8,9 @@
     <artifactId>SocialNetwork</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <name>Social Skills Up main</name>
+
     <modules>
         <module>CoreApi</module>
         <module>CoreImpl</module>
@@ -44,7 +47,6 @@
         </dependency>
     </dependencies>
 
-    <name>Social Skills Up</name>
 
     <build>
         <pluginManagement>
