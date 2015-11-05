@@ -11,21 +11,13 @@
 
     <artifactId>Dao</artifactId>
     <name>DAO module</name>
+
+    <!--так как в родительском проекте объявлена секция Dependency Management, то здесь можно опустить версии-->
+    <!--для объявленных там зависимостей-->
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
-            <version>4.1.5.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
-            <version>4.1.5.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate.javax.persistence</groupId>
-            <artifactId>hibernate-jpa-2.1-api</artifactId>
-            <version>1.0.0.Final</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
@@ -33,15 +25,5 @@
             <version>1.0.0.Final</version>
         </dependency>
     </dependencies>
-    <dependencyManagement>
-
-        <!--<dependencies>-->
-            <!--<dependency>-->
-                <!--<groupId>SocialNetwork</groupId>-->
-                <!--<artifactId>SkillsUpProjects</artifactId>-->
-                <!--<version>1.0-SNAPSHOT</version>-->
-            <!--</dependency>-->
-        <!--</dependencies>-->
-    </dependencyManagement>
 
 </project>

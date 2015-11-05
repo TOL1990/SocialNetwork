@@ -12,14 +12,17 @@
     <artifactId>coreApi</artifactId>
     <name>Social CoreApi module</name>
 
-<dependencyManagement>
-    <dependencies>
-        <dependency>
-            <groupId>SocialNetwork</groupId>
-            <artifactId>CoreImpl</artifactId>
-        </dependency>
-    </dependencies>
-</dependencyManagement>
+
+    <!--Dependency management предназначена для аггрегирующего проекта, но не для модулей самих по себе.-->
+    <!--К тому же Core API не должен в себе содержать каких=либо зависимостей на свою имплементацию-->
+<!--<dependencyManagement>-->
+    <!--<dependencies>-->
+        <!--<dependency>-->
+            <!--<groupId>SocialNetwork</groupId>-->
+            <!--<artifactId>CoreImpl</artifactId>-->
+        <!--</dependency>-->
+    <!--</dependencies>-->
+<!--</dependencyManagement>-->
 
 
 </project>

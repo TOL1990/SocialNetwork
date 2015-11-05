@@ -11,27 +11,39 @@
 
     <artifactId>CoreImpl</artifactId>
     <name>CoreImpl module</name>
-    <dependencyManagement>
+
 
     <dependencies>
+        <!--Вот тут тоже совершенно непонятная зависимость-->
+        <!--<dependency>-->
+        <!--<groupId>SocialNetwork</groupId>-->
+        <!--<artifactId>SkillsUpProjects</artifactId>-->
+        <!--<version>1.0-SNAPSHOT</version>-->
+        <!--</dependency>-->
+
+        <!--В этих зависимостях ты указывал Artifact ID для родительского проекта, вместо необходимого group ID-->
         <dependency>
-            <groupId>SocialNetwork</groupId>
-            <artifactId>SkillsUpProjects</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>SkillsUpProjects</groupId>
+            <artifactId>coreApi</artifactId>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>SocialNetwork</groupId>
-            <artifactId>CoreApi</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>SocialNetwork</groupId>
+            <groupId>SkillsUpProjects</groupId>
             <artifactId>Dao</artifactId>
+            <version>${project.version}</version>
         </dependency>
 
+        <!--здесь нужны спринговые зависимости для работы контекста-->
 
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
     </dependencies>
-
-    </dependencyManagement>
 
 
 </project>
