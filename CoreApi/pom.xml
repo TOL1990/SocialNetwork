@@ -11,14 +11,15 @@
 
     <artifactId>coreApi</artifactId>
     <name>Social CoreApi module</name>
-<!--<dependencyManagement>-->
-    <!--<dependencies>-->
-        <!--<dependency>-->
-            <!--<groupId>SocialNetwork</groupId>-->
-            <!--<artifactId>SkillsUpProjects</artifactId>-->
-        <!--</dependency>-->
-    <!--</dependencies>-->
-<!--</dependencyManagement>-->
+
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>SocialNetwork</groupId>
+            <artifactId>CoreImpl</artifactId>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
 
 
 </project>

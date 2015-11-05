@@ -33,7 +33,7 @@
             <version>1.0.0.Final</version>
         </dependency>
     </dependencies>
-    <!--<dependencyManagement>-->
+    <dependencyManagement>
 
         <!--<dependencies>-->
             <!--<dependency>-->
@@ -42,6 +42,6 @@
                 <!--<version>1.0-SNAPSHOT</version>-->
             <!--</dependency>-->
         <!--</dependencies>-->
-    <!--</dependencyManagement>-->
+    </dependencyManagement>
 
 </project>
